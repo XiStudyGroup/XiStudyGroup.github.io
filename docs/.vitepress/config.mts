@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  markdown: {
+    math: true
+  },
   vite: { 
     optimizeDeps: {
       exclude: [ 
@@ -28,13 +31,14 @@ export default defineConfig({
     sidebar: {
       '/学习资料/':[{
         text: '学习资料',
+        link: '/学习资料/',
         collapsed: true,
         items: [
           { text: '计算机科学与人工智能的数学基础上复习大纲', link: '/学习资料/计算机科学与人工智能的数学基础上复习大纲' },
           { text: 'C++程序设计-绩点与寄点', link: '/学习资料/C++程序设计-绩点与寄点' },
           { text: '认知心理学实验指南', link: '/学习资料/认知心理学实验指南' },
         ]
-      }]
+      }],
     },
 
     socialLinks: [

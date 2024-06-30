@@ -21,11 +21,13 @@ hero:
       link: /学习资料
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 生存指南
+    details: 汐学组独家发布，西安交大生存指南！
+  - title: 学习资料
+    details: 更多学习资料，尽在汐学组！
+  - title: 学点没用的
+    details: CS 专业闲暇自我提升，学点没用的月刊给你方向！
+  - title: 人工智能自学指南
+    details: 成为人工智能领域研究者的快捷路径！
 ---
 
