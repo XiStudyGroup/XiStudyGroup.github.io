@@ -17,26 +17,28 @@ export default defineConfig({
   }, 
   lang: 'zh-CN',
   title: "XiStudyGroup",
-  description: "汐学组，欢迎你来。",
+  description: "汐学组主页，欢迎你来。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '学习资料', link: '/学习资料' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
+    sidebar: {
+      '/学习资料/':[{
+        text: '学习资料',
+        collapsed: true,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '计算机科学与人工智能的数学基础上复习大纲', link: '/学习资料/计算机科学与人工智能的数学基础上复习大纲' },
+          { text: 'C++程序设计-绩点与寄点', link: '/学习资料/C++程序设计-绩点与寄点' },
+          { text: '认知心理学实验指南', link: '/学习资料/认知心理学实验指南' },
         ]
-      }
-    ],
+      }]
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/XiStudyGroup/XiStudyGroup.github.io' }
     ]
   }
 })
