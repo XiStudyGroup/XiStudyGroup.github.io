@@ -5,6 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 
 import { 
   NolebaseEnhancedReadabilitiesMenu, 
+  NolebaseEnhancedReadabilitiesPlugin,
   NolebaseEnhancedReadabilitiesScreenMenu, 
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
@@ -23,6 +24,10 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.use(NolebaseEnhancedReadabilitiesPlugin, {
+      spotlight: {
+        defaultToggle: true,
+      },
+    })
   }
 } satisfies Theme
