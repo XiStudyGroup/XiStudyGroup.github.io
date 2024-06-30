@@ -30,6 +30,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
+          - uses: pnpm/action-setup@v2
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
