@@ -22,6 +22,9 @@ hero:
     - theme: alt
       text: 生活指南
       link: /学习资料
+  image:
+    src: /logo.png
+    alt: XiStudyGroup logo
 
 features:
   - title: 生存指南

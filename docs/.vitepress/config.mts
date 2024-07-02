@@ -22,6 +22,10 @@ export default defineConfig({
   title: "XiStudyGroup",
   description: "汐学组主页，欢迎你来。",
   themeConfig: {
+    logo: {
+      src: '/logo.svg',
+      alt: 'Logo: XiStudyGroup',
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
