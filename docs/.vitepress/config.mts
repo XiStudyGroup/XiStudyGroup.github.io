@@ -25,6 +25,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: '关于我们', link: '/关于我们' },
       { text: '学习资料', link: '/学习资料' }
     ],
 
@@ -38,6 +39,11 @@ export default defineConfig({
           { text: 'C++程序设计-绩点与寄点', link: '/学习资料/C++程序设计-绩点与寄点' },
           { text: '认知心理学实验指南', link: '/学习资料/认知心理学实验指南' },
         ]
+      }],
+      '/关于我们/':[{
+        text: '关于我们',
+        link: '/关于我们/',
+        collapsed: true,
       }],
     },
 

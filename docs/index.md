@@ -8,6 +8,9 @@ hero:
   tagline: Free to share, free to learn.
   actions:
     - theme: brand
+      text: 关于我们
+      link: /关于我们
+    - theme: brand
       text: 西安交大生存指南
       link: https://xistudygroup.github.io/SurviveXJTU/
     - theme: alt
