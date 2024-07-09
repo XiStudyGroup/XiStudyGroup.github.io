@@ -12,7 +12,7 @@ hero:
       link: /关于我们
     - theme: brand
       text: 西安交大生存指南
-      link: https://xistudygroup.github.io/SurviveXJTU/
+      link: https://survivexjtu.github.io/
     - theme: alt
       text: 学习资料
       link: /学习资料

@@ -21,7 +21,7 @@
 
 ### 西安交大生存指南
 
-**\[ [主页](https://xistudygroup.github.io/SurviveXJTU/) | [GitHub](https://github.com/XiStudyGroup/SurviveXJTU/) \]**
+**\[ [主页](https://survivexjtu.github.io/) | [GitHub](https://github.com/XiStudyGroup/SurviveXJTU/) \]**
 
 面向西安交通大学学生（尤其新生）的生存指南，关于人生/入校/学习/保研的全方位指南。
 
